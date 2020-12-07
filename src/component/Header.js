@@ -3,8 +3,11 @@ import {
 MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBFormInline,
 MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
 } from "mdbreact";
-import { BrowserRouter as Router } from 'react-router-dom';
-export default function Header() {
+
+
+
+
+ const  Header= () => {
     return (
         <div>
          
@@ -12,8 +15,12 @@ export default function Header() {
         <MDBNavbarBrand>
           <strong className="white-text">Navbar</strong>
         </MDBNavbarBrand>
-        <MDBNavbarToggler onClick={this.toggleCollapse} />
-        <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
+        <MDBNavbarToggler 
+        //  onClick={this.toggleCollapse} 
+         />
+        <MDBCollapse id="navbarCollapse3"  
+        // isOpen={this.state.isOpen} 
+        navbar>
           <MDBNavbarNav left>
             <MDBNavItem active>
               <MDBNavLink to="#!">Home</MDBNavLink>
@@ -53,3 +60,5 @@ export default function Header() {
         </div>
     )
 }
+
+export default Header;

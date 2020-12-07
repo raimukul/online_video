@@ -10,8 +10,8 @@ import About from './component/About';
 function App() {
   return (
     <Router>   
-         <Switch> <Route exact path='/' component={Home}/> </Switch>
-         <Switch><Route  path='/about' component={About} /></Switch>  
+         <Switch> <Route exact path='/' component={Home}/>
+           <Route  path='/about' component={About} /></Switch>  
          {/* <Switch><Route  path='/college' component={College} /></Switch>  
          <Switch> <Route  path='/news' component={News} /> </Switch>  
          <Switch>  <Route  path='/contact' component={Contact} />   </Switch>  
