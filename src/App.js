@@ -6,16 +6,17 @@ import './App.css';
 import {BrowserRouter as Router , Route , Switch } from 'react-router-dom'
 import Home from './component/Home';
 import About from './component/About';
+import Faq from './component/Faq'
 
 function App() {
   return (
     <Router>   
-         <Switch> <Route exact path='/' component={Home}/>
-           <Route  path='/about' component={About} /></Switch>  
-         {/* <Switch><Route  path='/college' component={College} /></Switch>  
-         <Switch> <Route  path='/news' component={News} /> </Switch>  
-         <Switch>  <Route  path='/contact' component={Contact} />   </Switch>  
-         <Switch>  <Route  path='/pricing'  component={Pricing} />  </Switch>  */}
+         <Switch> 
+           <Route exact path='/' component={Home}/>
+           <Route  path='/about' component={About} />
+           <Route path='/faq' component={Faq} />
+         </Switch>  
+        
   </Router>
   );
 }

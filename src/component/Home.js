@@ -2,12 +2,16 @@ import React from 'react';
 import Body from './Body';
 import Footer from  './Footer';
 import Header from './Header';
+import Faq from './Faq'
+import Plan from './Plan'
 
 const Home =()=>{
     return (
         <div>
             <Header/>
             <Body/>
+            <Plan/>
+            <Faq/>
             <Footer/>
          </div>       
     )
