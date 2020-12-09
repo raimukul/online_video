@@ -1,7 +1,7 @@
 import React from 'react'
 import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBJumbotron } from
 "mdbreact";
-import './Style/Body.css'
+import '../Style/Body.css'
 
 function Body() {
     return (

@@ -84,7 +84,7 @@ const Faq = () => {
         
         <Card onClick={()=>toggle1()}>
           <Accordion.Toggle as={Card.Header} eventKey="1">
-            <h6 style={{ fontWeight: "bold" }}>What is the qualification of the mentors available on your platform?<MDBIcon className="ml-5 orange-text float-right align-middle" 
+            <h6 style={{ fontWeight: "bold" }}>What is the qualification of the mentors available on your platform?<MDBIcon className="ml-5 cyan-text float-right align-middle" 
             icon={first ? 'minus' : 'plus'} /></h6>
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="1">
@@ -94,7 +94,7 @@ const Faq = () => {
         </Card>
         <Card onClick={()=>toggle2()}>
           <Accordion.Toggle as={Card.Header} eventKey="2">
-            <h6 style={{ fontWeight: "bold" }}>What kind of doubts should I ask on the video call?<MDBIcon className="ml-5 orange-text float-right align-middle" 
+            <h6 style={{ fontWeight: "bold" }}>What kind of doubts should I ask on the video call?<MDBIcon className="ml-5 cyan-text float-right align-middle" 
             icon={second ? 'plus' : 'minus'}/></h6>
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="2">
@@ -104,7 +104,7 @@ const Faq = () => {
         </Card>
         <Card  onClick={()=>toggle3()}>
           <Accordion.Toggle as={Card.Header} eventKey="3">
-            <h6 style={{ fontWeight: "bold" }}>How will instiBuddy be helpful in making a decision of joining a college based on my score? <MDBIcon className="ml-5 orange-text float-right align-middle" 
+            <h6 style={{ fontWeight: "bold" }}>How will instiBuddy be helpful in making a decision of joining a college based on my score? <MDBIcon className="ml-5 cyan-text float-right align-middle" 
             icon={third ? 'plus' : 'minus'} /></h6>
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="3">
@@ -113,7 +113,7 @@ const Faq = () => {
         </Card>
         <Card onClick={()=>toggle4()}>
           <Accordion.Toggle as={Card.Header} eventKey="4">
-            <h6 style={{ fontWeight: "bold" }}>What will I have to do in order to become a mentor in InstiBuddy?<MDBIcon className="ml-5 orange-text float-right align-middle" 
+            <h6 style={{ fontWeight: "bold" }}>What will I have to do in order to become a mentor in InstiBuddy?<MDBIcon className="ml-5 cyan-text float-right align-middle" 
             icon={fourth ? 'plus' : 'minus'}/></h6>
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="4">
@@ -124,7 +124,7 @@ const Faq = () => {
         </Card>
         <Card onClick={()=>toggle5()}> 
           <Accordion.Toggle as={Card.Header} eventKey="5">
-            <h6 style={{ fontWeight: "bold" }}>How could I opt for mentorship if I am a student who's confused between 2 or more colleges?<MDBIcon className="ml-5 orange-text float-right align-middle" 
+            <h6 style={{ fontWeight: "bold" }}>How could I opt for mentorship if I am a student who's confused between 2 or more colleges?<MDBIcon className="ml-5 cyan-text float-right align-middle" 
             icon={five ? 'plus' : 'minus'} /></h6>
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="5">
@@ -133,7 +133,7 @@ const Faq = () => {
         </Card>
         <Card onClick={()=>toggle6()}>
           <Accordion.Toggle as={Card.Header} eventKey="7">
-            <h6 style={{ fontWeight: "bold" }}>Where should I reach in case I face any technical glitch during my mentorship session?<MDBIcon className="ml-5 orange-text float-right align-middle" 
+            <h6 style={{ fontWeight: "bold" }}>Where should I reach in case I face any technical glitch during my mentorship session?<MDBIcon className="ml-5 cyan-text float-right align-middle" 
             icon={six ? 'plus' : 'minus'}/></h6>
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="7">

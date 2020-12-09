@@ -4,7 +4,7 @@ export default function Plan() {
     return (
         <div>
             <MDBContainer>
-            <h3 className='text-center mb-4' style={{ fontWeight: 'bold' }}>Choose Your Plan</h3>
+            <h3 className='text-center mb-4 mt-5 font-weight-bold'>Choose Your Plan</h3>
           <MDBRow>
       <MDBCol md='4'>
       <MDBCard narrow>
@@ -18,7 +18,7 @@ export default function Plan() {
               Sed ut perspiciatis unde omnis iste natus sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam.
             </MDBCardText>
-            <MDBBtn color='unique'>Select</MDBBtn></center>
+            <MDBBtn color='cyan'>Select</MDBBtn></center>
           </MDBCardBody>
         </MDBCard>      </MDBCol>
 
@@ -34,7 +34,7 @@ export default function Plan() {
               Sed ut perspiciatis unde omnis iste natus sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam.
             </MDBCardText>
-            <MDBBtn color='unique'>Select</MDBBtn></center>
+            <MDBBtn color='cyan'>Select</MDBBtn></center>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
@@ -51,7 +51,7 @@ export default function Plan() {
               Sed ut perspiciatis unde omnis iste natus sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam.
             </MDBCardText>
-            <MDBBtn color='unique'>Select</MDBBtn></center>
+            <MDBBtn color='cyan'>Select</MDBBtn></center>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>

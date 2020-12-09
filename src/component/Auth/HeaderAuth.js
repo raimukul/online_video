@@ -1,17 +1,13 @@
-import React from "react";
+import React from 'react'
 import {
-MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBFormInline,
-MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
-} from "mdbreact";
+    MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBFormInline,
+    MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
+    } from "mdbreact";
 
-
-
-
- const  Header= () => {
+export default function HeaderAuth() {
     return (
         <div>
-         
-      <MDBNavbar color="indigo" dark expand="md">
+             <MDBNavbar color="cyan" dark expand="md">
         <MDBNavbarBrand>
           <strong className="white-text">Navbar</strong>
         </MDBNavbarBrand>
@@ -26,24 +22,15 @@ MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
               <MDBNavLink to="#!">Home</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="#!">Features</MDBNavLink>
+              <MDBNavLink to="#!">TV Shows</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="#!">Pricing</MDBNavLink>
+              <MDBNavLink to="#!">Movies</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBDropdown>
-                <MDBDropdownToggle nav caret>
-                  <span className="mr-2">Dropdown</span>
-                </MDBDropdownToggle>
-                <MDBDropdownMenu>
-                  <MDBDropdownItem href="#!">Action</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Another Action</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
-                </MDBDropdownMenu>
-              </MDBDropdown>
+              <MDBNavLink to="#!">Kids</MDBNavLink>
             </MDBNavItem>
+            
           </MDBNavbarNav>
           <MDBNavbarNav right>
             <MDBNavItem>
@@ -53,6 +40,18 @@ MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
                 </div>
               </MDBFormInline>
             </MDBNavItem>
+            <MDBNavItem>
+            <MDBDropdown>
+      <MDBDropdownToggle caret color="cyan">
+        User Name
+      </MDBDropdownToggle>
+      <MDBDropdownMenu left basic>
+        <MDBDropdownItem>Action</MDBDropdownItem>
+        <MDBDropdownItem>Another Action</MDBDropdownItem>
+        <MDBDropdownItem>Something else here</MDBDropdownItem>
+      </MDBDropdownMenu>
+    </MDBDropdown>
+            </MDBNavItem>
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBNavbar>
@@ -60,5 +59,3 @@ MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
         </div>
     )
 }
-
-export default Header;

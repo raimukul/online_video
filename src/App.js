@@ -6,7 +6,7 @@ import './App.css';
 import {BrowserRouter as Router , Route , Switch } from 'react-router-dom'
 import Home from './component/Home';
 import About from './component/About';
-import Faq from './component/Faq'
+import Homeauth from './component/Auth/AuthHome';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
          <Switch> 
            <Route exact path='/' component={Home}/>
            <Route  path='/about' component={About} />
-           <Route path='/faq' component={Faq} />
+           <Route path='/login' component={Homeauth} />
          </Switch>  
         
   </Router>
