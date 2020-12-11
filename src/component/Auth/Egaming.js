@@ -1,11 +1,11 @@
 import React from 'react'
 import InfiniteCarousel from 'react-leaf-carousel';
 
-function Cricket() {
+function Egaming() {
     return (
         <div className='bg-dark p-5'>
             <div  className='bg-cyan'>
-            <h4 className='text-left text-white mb-4 ml-5 font-weight-bold'>Cricket on-Demand</h4>
+            <h4 className='text-left text-white mb-4 ml-5 font-weight-bold'>e-Gaming</h4>
             </div>
           <InfiniteCarousel
     breakpoints={[
@@ -157,4 +157,4 @@ function Cricket() {
     )
 }
 
-export default Cricket
+export default Egaming

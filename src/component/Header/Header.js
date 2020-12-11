@@ -1,11 +1,5 @@
 import React from "react";
-import {
-MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBFormInline,
-MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
-} from "mdbreact";
-
-
-
+import {MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse } from "mdbreact";
 
  const  Header= () => {
     return (
@@ -26,7 +20,7 @@ MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
           </MDBNavbarNav>
           <MDBNavbarNav right className='mr-5'>
             <MDBNavItem>
-            <MDBNavLink to="#!">Sign in</MDBNavLink>
+            <MDBNavLink to="/login">Sign in</MDBNavLink>
             </MDBNavItem>
             
           </MDBNavbarNav>
