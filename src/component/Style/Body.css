@@ -1,6 +1,22 @@
-.bannerB{
+
+body, html {
+    height: 100%;
+  }
+  .bg {
+    background-image: url("../Images/homepage/bannerMovies.jpg");
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem 1rem!important 
+  }
+  .bannerB{
     padding: 0rem 0rem!important; 
 }
-/* .bannerSize{
-    height: 70vh!important;
-} */
+.middle{
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

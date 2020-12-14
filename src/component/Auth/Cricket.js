@@ -24,10 +24,10 @@ function Cricket() {
         },
       },
     ]}
-    dots={true}
+    dots={false}
     showSides={true}
-    sidesOpacity={.5}
-    sideSize={.1}
+    sidesOpacity={.1}
+    sideSize={.7}
     slidesToScroll={4}
     slidesToShow={4}
     scrollOnDevice={true}
