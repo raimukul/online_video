@@ -3,7 +3,7 @@ import InfiniteCarousel from 'react-leaf-carousel';
 
 function GameSlides() {
     return (
-        <div className='bg-dark p-5 mt-5'>
+        <div className='bg-dark p-5'>
             <div  className='bg-cyan'>
             <h4 className='text-center text-white mb-4 ml-5 font-weight-bold'>Over 50 Sports Live & On-Demand</h4>
             </div>
